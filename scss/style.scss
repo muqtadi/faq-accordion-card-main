@@ -3,8 +3,24 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 .wrapper{
   max-width: 1440px;
   height: 100vh;
   margin: 0 auto;
+  background-image: linear-gradient(180deg,rgb(175, 103, 233), rgb(101, 101, 231));
+}
+
+.wrapp__row{
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.card{
+  width: 760px;
+  height: 450px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 8px 8px 10px rgba(102, 101, 101, 0.2);
 }
