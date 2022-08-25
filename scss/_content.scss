@@ -1,0 +1,45 @@
+.content{
+  display: flex;
+  align-items: center;
+}
+
+.content__row{
+  max-width: 300px;
+}
+
+.content__title{
+  font-weight: 700;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  margin-bottom: 10px;
+}
+
+.faq{
+  width: 280px;
+  border-bottom: 1px solid rgb(231, 231, 233);
+  line-height: 4;
+  position: relative;
+
+}
+
+.question{
+  font-size: 14px;
+  color: rgb(74, 75, 94);
+  cursor: pointer;
+}
+
+.answer{
+  display: block;
+  line-height: 20px;
+  color:hsl(240, 6%, 50%);
+}
+
+.arrow__down{
+  position: absolute;
+  top: 25px;
+  right: 0;
+}
+
+.arrow__down img{
+  display: block;
+}

@@ -1,3 +1,17 @@
+@font-face {
+  font-family: 'Kumbh Sans';
+  src: url("../fonts/Kumbh_Sans/KumbhSans-Regular.woff2") format("woff2"), url("../fonts/Kumbh_Sans/KumbhSans-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Kumbh Sans';
+  src: url("../fonts/Kumbh_Sans/KumbhSans-Bold.woff2") format("woff2"), url("../fonts/Kumbh_Sans/KumbhSans-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
 .picture {
   width: 410px;
   height: 500px;
@@ -33,11 +47,67 @@
   z-index: 3;
 }
 
-* {
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content__row {
+  max-width: 300px;
+}
+
+.content__title {
+  font-weight: 700;
+  font-size: 30px;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.faq {
+  width: 280px;
+  border-bottom: 1px solid #e7e7e9;
+  line-height: 4;
+  position: relative;
+}
+
+.question {
+  font-size: 14px;
+  color: #4a4b5e;
+  cursor: pointer;
+}
+
+.answer {
+  display: block;
+  line-height: 20px;
+  color: #787887;
+}
+
+.arrow__down {
+  position: absolute;
+  top: 25px;
+  right: 0;
+}
+
+.arrow__down img {
+  display: block;
+}
+
+*,
+::before,
+::after {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 12px;
 }
 
 .wrapper {
